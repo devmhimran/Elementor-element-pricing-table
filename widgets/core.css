@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif; 
+}
+.container{
+	width: 100%;
+	margin: 0px auto 0px;
+align-items: center;
+width: 1220px;
+}
+.list{
+	
+}
+.first-list{
+	margin: 20px auto 0px;
+	background: #fff;
+	height: 420px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+.first-list-row-1{
+	padding: 84px 56px;
+}
+.first-list-row-1 h1{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+}
+.first-list-row-1 p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.first-list-row-2{
+	padding: 84px 56px;
+
+}
+.first-list-row-2 ul li{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 45px;
+	text-align: left;
+}
+.first-list-row-3{
+		padding: 84px 56px;
+}
+.first-list-row-3 .dollar{
+	font-size: 28px;
+	font-weight: 600;
+	display: inline-block;
+}
+.first-list-row-3 .price{
+	font-size: 58px;
+	font-weight: 700;
+	margin: 0px;
+	display: inline-block;
+}
+.first-list-row-3 .per{
+	display: inline-block;
+}
+.first-list-row-3  .user{
+	font-size: 16px;
+	font-weight: 600;
+	color: grey;
+	margin: 6px;
+}
+.first-list-row-3  .month{
+	font-size: 16px;
+	font-weight: 600;
+	color: grey;
+	margin: 6px;
+}
+.btn{
+	margin-top: 35px; 
+}
+.button1{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 80px;
+	background: black;
+}
+.button1:hover{
+	background: white;
+	border: 2px solid black;
+	color: black;
+	transition: 0.5s;
+}
+.button1{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 80px;
+	background: black;
+}
+.button2{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	border-radius: 30px;
+	padding: 10px 80px;
+	background: white;
+}
+.button2:hover{
+	background: black;
+	border: 2px solid white;
+	color: white;
+	transition: 0.5s;
+}
+.second-list{
+	width: 1220px;
+	height: 420px;
+	background: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	color: white;
+}
+.second-list-row-1{
+	padding: 84px 56px;
+}
+.second-list-row-1 h1{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+}
+.second-list-row-1 p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.second-list-row-2{
+	padding: 84px 56px;
+
+}
+.second-list-row-2 ul li{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 45px;
+	text-align: left;
+}
+.second-list-row-3{
+		padding: 84px 56px;
+}
+.second-list-row-3 .dollar{
+	font-size: 28px;
+	font-weight: 600;
+	display: inline-block;
+}
+.second-list-row-3 .price{
+	font-size: 58px;
+	font-weight: 700;
+	margin: 0px;
+	display: inline-block;
+}
+.second-list-row-3 .per{
+	display: inline-block;
+}
+.second-list-row-3  .user{
+	font-size: 16px;
+	font-weight: 600;
+	color: grey;
+	margin: 6px;
+}
+.second-list-row-3  .month{
+	font-size: 16px;
+	font-weight: 600;
+	color: grey;
+	margin: 6px;
+}
+.thrid-list{
+	width: 1220px;
+	height: 420px;
+		display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thrid-list-row-1{
+	padding: 84px 56px;
+
+}
+.thrid-list-row-1 h1{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+}
+.thrid-list-row-1 p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.thrid-list-row-2{
+	padding: 84px 56px;
+
+}
+.thrid-list-row-2 ul li{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 45px;
+	text-align: left;
+}
+.thrid-list-row-3{
+		padding: 84px 56px;
+}
+.thrid-list-row-3 .dollar{
+	font-size: 28px;
+	font-weight: 600;
+	display: inline-block;
+}
+.thrid-list-row-3 .price{
+	font-size: 58px;
+	font-weight: 700;
+	margin: 0px;
+	display: inline-block;
+}
+.thrid-list-row-3 .per{
+	display: inline-block;
+}
+.thrid-list-row-3  .user{
+	font-size: 16px;
+	font-weight: 600;
+	color: grey;
+	margin: 6px;
+}
+.thrid-list-row-3  .month{
+	font-size: 16px;
+	font-weight: 600;
+	color: grey;
+	margin: 6px;
+}
